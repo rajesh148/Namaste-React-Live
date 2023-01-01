@@ -1,0 +1,77 @@
+What is EMMET???
+A)EMMET is a set a plug-ins for the editor tools which will allow you to write code fast. This will improve your speed while writing the HTML-CSS codes.
+It is block of code snippits which will improve your coding speed.
+
+
+Difference between Library and Framwork?
+A)Library: Library is collections of reusable functions or reusable code snippets. If we want to use libraries we need to call them and use them. In this we have less no of rules to follow.
+
+Framwork: Framwork is a collection of Libraries.It has more restricted rules. 
+
+
+The main difference b/w Libraray and Framework is "Inversion of Controll"
+Inversion of control means the control is not in our hands.
+In case of Library we can call the function and we have the control
+In case of Framework the framework itself call the function so control is not in our hand.
+
+simple ex:
+
+In recent times we are dong Work from Home right Work from Home is Library, because we dont have any rules, we can eat while working we can wear infomal shirst or what ever.
+
+In case of work from Office, It is a framwork type, so there we need to follow certain rules and regulations we need to wear proper dress code like that.
+
+
+example 2: Clinic is a library where as a big hospital is a frame work.
+
+
+
+What is CDN?
+A)CDN content devlivery network is distrubuted network of servers which will load your website or content very fast. For that it will use CDN. CDN is a distrubuted network. It will check in its cache whether your webiste is exits or not if not it will go to your served and it will cache your website. Each of these servers in the CDN's network is called a Point of Presence (PoP) or an edge server.
+ex: Right now you are developed a website and hosted in a server near to Chenai. Someone from Delhi accessed your website. Here the CDN concept works. In Delhi your webiste content is stored in PoP. SO while accessing the content from your server that is chennai, he[the delhi guy] will access your content near from the delhi PoP.
+By using this the page will load fast.
+
+ref link: https://imagekit.io/blog/what-is-content-delivery-network-cdn-guide/
+
+What is rel in css?
+A)rel specifies the relationship between the current document and the linked document. It should be used when there is a href attribute.
+If we remove rel attribute the styles will not apply to the html document.
+
+Why we add css files in head tag?
+A)To avoid network latency we add the css files in the head tag. 
+Latency: the delay in the network communication. Network with longer delay or lag is called High latency and Network with less delay or faster data communication is called low latancy.
+
+Why React is known as React???
+A) React was developed for Application (Facebook) that have constantly changing the data. React is a front end library or View in MVC, that means user click around the application and the data may change constantly.Based on the user interaction it needs to "REACT" or change the applications data. 
+
+What is crossorigin in script tag?
+A)A crossoring request is request for a resources(stylesheets, images, iframes,) from another domain.
+Web pages often request to load the resouces from other servers.Here the CORS comes into the pictures;
+
+CORS: It is stands for CROSS-ORIGIN-RESOURS-SHARING, It is a machanism request resource from others which are not in the same domain. CORS allows servers to specify, who can access the  assest on the server, among many other things.
+
+What is diference between React and ReactDOM?
+A) React library is responsible to create react views;
+ReactDOM library is responsible to actully render UI in browser. 
+
+What is async and defer?
+A) async and defer which are boolean attribues which are used alogn with the script tag to load the external scripts efficiently into a webpage.
+
+When the we run our html code, First thing is to "Parse the hml". We can distribute into 3 Type of scenarios 
+1.Normal flow
+2.Async
+3.Defer
+
+Normal flow: in normal flow when the html starts parsing in between if it saw the scripts, it will pause or stop the parsing of the html and it will dowload the script files completely and when the scripts are available it will execute the script file. So in mean time the HTML parsing was stopped or paused.
+
+ASYNC: In this flow, when the html starts parsing in parallel the scripts also downloaded it won't stop when the scrpits files are downloaded, Once the scripts are downloaded means they are available then it stop the html parsing and execute the scripts and then again start or resume the html parsing.
+
+Defer: In this flow if it will see the script tag it won't pause the html parsing it will download the script file and it is wait until the html parsing. Once the html parsing is done then only the scripts will execute.
+
+
+
+What is difference between react.development.js and react.production.js files via CDN?
+A) As the name suggest develoment is used for to develop our project.In that we are using source maps mainly hot reloading.
+Hor rloading allows us to see without reloading the entire app.
+
+ The production build, on the other hand, runs in production mode which means this is the code running on your client's machine.
+ and 
