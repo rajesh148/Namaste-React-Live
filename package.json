@@ -1,0 +1,30 @@
+{
+  "name": "namaste-react-live",
+  "version": "1.0.0",
+  "description": "React live",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajesh148/Namaste-React-Live.git"
+  },
+  "author": "Rajesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajesh148/Namaste-React-Live/issues"
+  },
+  "homepage": "https://github.com/rajesh148/Namaste-React-Live#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.2",
+    "process": "^0.11.10"
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ]
+}

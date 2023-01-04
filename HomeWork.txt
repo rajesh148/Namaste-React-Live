@@ -71,7 +71,7 @@ Defer: In this flow if it will see the script tag it won't pause the html parsin
 
 What is difference between react.development.js and react.production.js files via CDN?
 A) As the name suggest develoment is used for to develop our project.In that we are using source maps mainly hot reloading.
-Hor rloading allows us to see without reloading the entire app.
+Hot rloading allows us to see without reloading the entire app.
 
  The production build, on the other hand, runs in production mode which means this is the code running on your client's machine.
  and 
